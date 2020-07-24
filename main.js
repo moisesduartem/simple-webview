@@ -19,7 +19,6 @@ function createWindow () {
   win.loadURL(config.url)
 }
 
-
 function toggleDevTools() {
     win.webContents.toggleDevTools()
 }
