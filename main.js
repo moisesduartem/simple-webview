@@ -6,6 +6,7 @@ function createWindow () {
     width: 800,
     height: 600,
     titleBarStyle: 'hidden',
+    alwaysOnTop: true,
     webPreferences: {
       nodeIntegration: true
     }
